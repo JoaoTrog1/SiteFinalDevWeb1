@@ -1,0 +1,61 @@
+.pgsuperior{
+    height: 15%;
+    display: flex;
+}
+.pgsuperior h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #287192;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pgsuperior div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.infosite1, .infosite2{
+    padding-left: 20px;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+}
+.infosite1 div, .infosite2 div{
+    height: 100%;
+    width: fit-content;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.infosite1 div h2, .infosite2 div h2{
+    width: 100%;
+    color: #2f8cb8;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.infosite1 div p, .infosite2 div p{
+    width: 100%;
+    color: #2f8cb8;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 11px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.infosite1 div hr, .infosite2 div hr{
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    margin-top: 2px;
+    border-color: #3aa8db;
+}

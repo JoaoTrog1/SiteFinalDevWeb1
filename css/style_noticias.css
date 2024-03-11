@@ -1,0 +1,97 @@
+.cabecalho .menu .a2{
+    background-color: #fcfcfc;
+    color: black;
+}
+
+.pgsuperior{
+    height: fit-content;
+    display: flex;
+}
+.pgsuperior h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #287192;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pgmeio {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+.notcia {
+    padding: 4PX;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0px 6px rgba(0,0,0,0.4);
+}
+.notcia .img1, .notcia .img2, .notcia .img3, .notcia .img4,.notcia .img5, .notcia .img6 {
+    
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.notcia .img1{
+    background-image: url(../img/noticias/img1.jpg);
+}
+.notcia .img2{
+    background-image: url(../img/noticias/img2.jpg);
+}
+.notcia .img3{
+    background-image: url(../img/noticias/img3.jpg);
+}
+.notcia .img4{
+    background-image: url(../img/noticias/img4.jpg);
+}
+.notcia .img5{
+    background-image: url(../img/noticias/img5.jpg);
+}
+.notcia .img6{
+    background-image: url(../img/noticias/img6.png);
+}
+.notcia .textonoticia {
+    padding: 20px;
+}
+.notcia h2 {
+    margin-top: 0;
+    max-lines: 2; /* Define o número máximo de linhas */
+    overflow: hidden; /* Esconde o texto excedente */
+    text-overflow: ellipsis; /* Adiciona reticências (...) quando o texto é cortado */
+    display: -webkit-box; /* Define o display como caixa flexível para funcionar no Safari */
+    -webkit-line-clamp: 2; /* Define o número máximo de linhas no Safari */
+    -webkit-box-orient: vertical; /* Orientação vertical no Safari */
+}
+.notcia p{
+    max-lines: 3; /* Define o número máximo de linhas */
+    overflow: hidden; /* Esconde o texto excedente */
+    text-overflow: ellipsis; /* Adiciona reticências (...) quando o texto é cortado */
+    display: -webkit-box; /* Define o display como caixa flexível para funcionar no Safari */
+    -webkit-line-clamp: 3; /* Define o número máximo de linhas no Safari */
+    -webkit-box-orient: vertical; /* Orientação vertical no Safari */
+}
+
+.textonoticia div {
+    display: flex;
+    width: 100%;
+}
+.textonoticia div a {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.textonoticia div p {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-size: 13px;
+}

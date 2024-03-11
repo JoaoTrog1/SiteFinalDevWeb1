@@ -1,0 +1,109 @@
+.cabecalho .menu .a3 {
+    background-color: #fcfcfc;
+    color: black;
+}
+
+.pgmeio {
+    display: flex;
+    height: 90%;
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+.div_left {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+
+}
+
+.div_right {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sobre {
+    padding: 50px;
+    padding-top: 10%;
+    height: 70%;
+}
+.sobre h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+    margin: 0;
+}
+.sobre p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4px;
+    padding-top: 0;
+    margin: 0;
+}
+
+.infcontato {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    align-items: center;
+}
+
+
+.contato{
+    display: flex;
+    width: auto;
+    align-items: center;
+    color: white;
+    height: 50px;
+}
+.email{
+    display: flex;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    background-color: #2f8cb8;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+.telefone {
+    display: flex;
+    width: auto;
+    height: 100%;
+    background-color: #2f8cb8;
+    margin-left: 2%;
+    border-radius: 10px;
+    align-items: center;
+    padding-right: 10px;
+}
+.telefone .imgtel {
+    background-image: url("../img/contato/tel.png");
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 80%;
+    margin: 10px;
+}
+.email .imgemail {
+    background-image: url("../img/contato/email.png");
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 80%;
+    margin: 10px;
+    
+}
+
+a {
+    white-space: nowrap;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    color: white;
+}
+

@@ -1,0 +1,77 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cabecalho {
+    background-color: #2f8cb8;
+    height: 10%;
+    color: white;
+    align-items: center;
+    display: flex;
+    
+}
+.cabecalho .titulo {
+    padding-left: 10px;
+}
+.cabecalho .menu {
+    height: fit-content;
+    width: 100vw;
+    text-align: end;
+    padding-right: 10px;
+}
+.cabecalho .menu a{
+    margin: 3%;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #218ec0;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cabecalho .menu a:hover {
+    background-color: #35b3ee; 
+    color: black;
+}
+
+.pagina {
+    background-color: white; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    height: 90%;
+}
+
+
+.pginferior{
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-color: #287192;
+}
+.pginferior p{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

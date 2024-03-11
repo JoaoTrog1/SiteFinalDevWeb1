@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameNews</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_contato.css">
+    <link rel="stylesheet" href="css/style_contato_formulario.css">
+    <script rel="text/javascript" src="js/cabecalho.js"></script>
+    <script rel="text/javascript" src="js/formulario.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cabecalho">
+            <div class="titulo">
+                <h1>GameNews</h1>
+            </div>
+            <div class="menu">
+                <a class="a1" onclick="mudarPagina('index.html')"> Início </a>
+                <a class="a2" onclick="mudarPagina('noticias.html')"> Notícias </a>
+                <a class="a3" onclick="mudarPagina('#')"> Contato </a>
+            </div>
+
+        </div>
+        <div class="pagina">
+            <div class="pgmeio">
+                <div class="div_left">
+                    <div class="formulario">
+                        <h2>Fale Conosco</h2>
+                        <p>Nome</p>
+                        <input type="text" id="nome">
+                        <p>E-mail</p>
+                        <input type="text" id="email">
+                        <p>Assunto</p>
+                        <input type="text" id="assunto">
+                        <textarea id="msg" rows="3" placeholder="Digite sua mensagem"></textarea>
+                        <input type="button" id="enviar" value="Enviar Mensagem" onclick="enviar()">
+                    </div>
+                </div>
+                <div class="div_right">
+                    <div class="sobre">
+                        <h1>Sobre</h1>
+                        <div>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nihil dolorum iure
+                                asperiores facere tenetur quia facilis blanditiis. Fugiat sint perferendis iste
+                                repellendus doloremque beatae. Accusantium, earum? Quibusdam, modi? Sunt!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="infcontato">
+                        <div class="contato">
+                            <div class="email">
+                                <div class="imgemail"></div>
+                                <a class="email" href="mailto:gamenews@contato.com">gamenews@contato.com</a>
+                            </div>
+                            <div class="telefone">
+                                <div class="imgtel"></div>
+                                <a class="email" href="tel:+550012345678">(00) 1234-5678</a>
+                            </div>
+                        </div>
+                        <div class="endereco">
+                            <p>Rua Exemplo, 1234 - Cidade, Estado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pginferior">
+                <p>©GameNews</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

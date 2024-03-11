@@ -1,0 +1,43 @@
+
+.titulo {
+    display: flex;
+    align-items: center;
+}
+.titulo h1{
+    padding-left: 20px;
+}
+.pagina{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 50px;
+}
+.pagina h1{
+    font-size: xxx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pagina .resumo{
+    color: rgb(163, 161, 161);
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pagina .data{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.vejamais {
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #2f8cb8;
+    border-radius: 5px;
+}
+.divvejamais{
+    padding-bottom: 30px;
+}
